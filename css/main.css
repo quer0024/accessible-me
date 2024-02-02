@@ -58,14 +58,8 @@ ul {
 
 .skip-link:hover,
 .skip-link:focus {
-  color: #439e66;
   background-color: rgb(232, 232, 232);
 }
-
-.skip-link:active {
-  color: #4e2992;
-}
-
 
 .main-nav ul li {
   flex: 1;
@@ -81,7 +75,7 @@ ul {
 }
 
 .main-nav ul li a:hover {
-  color: #439e66; 
+  color: #28603e; 
 }
 
 .main-nav ul li a:active {

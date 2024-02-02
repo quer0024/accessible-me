@@ -86,6 +86,10 @@ ul {
   border-bottom: 2px solid #1f4b30;
 }
 
+.owner ul {
+  margin-left: 20px;
+}
+
 form input,
 form textarea {
   display: block;

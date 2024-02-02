@@ -14,11 +14,17 @@
 </head>
 
 <body>
-  <div class="container">
+
+  <div class="container" role="main">
+    <ul>
+      <li class="skip-link"><a href="#main-nav">Skip to main nav</a></li>
+      <li class="skip-link"><a href="#main-content">Skip to main content</a></li>
+    </ul>
+
     <!-- Change div to header -->
     <header class="site-header">
       <h1>Jam Box Studios</h1>
-      <div class="main-nav">
+      <div class="main-nav" id="main-nav">
         <!-- Add ARIA role for nav -->
         <nav role="navigation">
           <ul>
@@ -30,11 +36,11 @@
         </nav>
       </div>
       <!-- Add "alt" tage for image -->
-      <img src="https://placekitten.com/1200/900" alt="cute cat" class="banner">
+      <img src="https://placekitten.com/1200/900" alt="cute cat" role="img" class="banner">
     </header>
 
     <!-- Change div to  main -->
-    <main class="main-content">
+    <main class="main-content" id="main-content">
       <!-- Change from h1 to h2 -->
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa
@@ -80,7 +86,7 @@
 
           <label for="message"><b>Your Message</b></label>
           <textarea></textarea>
-          <button aria-label="submit form" type="submit">Send</button>
+          <button aria-label="submit form" type="submit" role="button"><b>Send</b></button>
         </form>
       </div>
     </main>
@@ -89,6 +95,7 @@
       &copy; 2021 Jam Box Studios
     </footer>
   </div>
+
 </body>
 
 </html>
